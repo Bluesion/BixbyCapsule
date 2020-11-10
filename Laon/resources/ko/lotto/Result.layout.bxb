@@ -1,0 +1,24 @@
+layout-macro-def (LottoResultLayout) {
+  params {
+    param (result) {
+      type (ltResult)
+      min (Required) max (One)
+    }
+  }
+
+  content {
+    section {
+      content {
+        cell-card {
+          slot2 {
+            content {
+              order (PrimarySecondary)
+              primary ("#{value(result.numbers)}")
+              secondary ("보너스 번호: #{value(result.bonus)}")
+            }
+          }
+        }
+      }
+    }
+  }
+}

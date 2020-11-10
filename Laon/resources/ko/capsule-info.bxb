@@ -1,0 +1,11 @@
+capsule-info {
+  display-name (라온 - 결정이 즐거운 시간)
+  developer-name (Bluesion)
+  icon-asset (/images/icon.png)
+  description ("사소한 결정과 선택이 그동안 힘겨웠나요? 이제 라온이 좋은 선택을 해드릴게요 :)")
+  search-keywords {
+    keyword (라온)
+    keyword (Laon)
+  }
+  dispatch-name (라온)
+}

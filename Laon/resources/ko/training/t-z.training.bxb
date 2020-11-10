@@ -1,0 +1,5 @@
+train (t-zhypo3l9qh1wjwap2wahpku2c) {
+  utterance ([g:drAction] 어디로 갈까?)
+  plan (Y2BikEgvyMzJKS3OzM/TAzIq9VKKglKLS3NKsMk4JpcAeQyMQMgAxUASAA==)
+  last-modified (1595257539950)
+}

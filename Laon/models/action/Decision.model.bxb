@@ -1,0 +1,15 @@
+action (dcAction) {
+  description (할까 말까 결정하기)
+  collect {
+    input (dummy) {
+      type (core.Text)
+      min (Optional) max (One)
+    }
+    input (speech) {
+      type (Speech)
+      min (Required) max (One)
+    }
+  }
+  type(Calculation)
+  output (dcResult)
+}

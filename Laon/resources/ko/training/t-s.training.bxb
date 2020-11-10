@@ -1,0 +1,5 @@
+train (t-sxpg3y0eoc83ao7hug47n4a7d) {
+  utterance ([g:mrAction] 영화 뭐 볼까)
+  plan (Y2BikEgvyMzJKS3OzM/TAzIq9XKLglKLS3NKsMk4JpcAeQyMQMgAxUASAA==)
+  last-modified (1595257504121)
+}

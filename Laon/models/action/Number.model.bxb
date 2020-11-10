@@ -1,0 +1,22 @@
+action (rrAction) {
+  description (숫자 랜덤 뽑기)
+  collect {
+    input (min) {
+      type (rrMinInteger)
+      min (Required)
+      max (One)
+    }
+    input (max) {
+      type (rrMaxInteger)
+      min (Required)
+      max (One)
+    }
+    input (count) {
+      type (rrTotalCount)
+      min (Optional)
+      max (One)
+    }
+  }
+  type(Calculation)
+  output (rrResult)
+}

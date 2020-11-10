@@ -1,0 +1,11 @@
+action (trAction) {
+  description (여행지 추천)
+  collect {
+    input (trCity) {
+      type (trCity)
+      min (Required) max (One)
+    }
+  }
+  type(Calculation)
+  output (trResult)
+}

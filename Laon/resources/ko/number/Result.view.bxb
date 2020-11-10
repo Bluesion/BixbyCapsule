@@ -1,0 +1,17 @@
+result-view {
+  match: rrResult(this) {
+    min (Required) max (One)
+  }
+  
+  message {
+    template ("짜잔!")
+  }
+  
+  render {
+    layout-macro (RandomNumberResultLayout) {
+      param (result) {
+        expression (this)
+      }
+    }
+  }
+}

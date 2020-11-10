@@ -1,0 +1,9 @@
+train (t-7201lck0zibkh1ekhqavngj6s) {
+  utterance ([g:msAction] 노래 뭐 부를까)
+  plan (Y2BikEgvyMzJKS3OzM/TAzIq9XKLg1KLS3NKsMk4JpcAeQyMQMgAxUASAA==)
+  last-modified (1595347823999)
+}
+train (t-7fta33d8cwosrpikoq2iqlfhj) {
+  utterance ([g:hpAction] 도움말 보여줘)
+  last-modified (1595320050250)
+}

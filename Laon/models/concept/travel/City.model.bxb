@@ -1,0 +1,28 @@
+enum (trCity) {
+  symbol ("seoul")
+  symbol ("busan")
+
+  // 경기도
+  symbol ("kk")
+
+  // 강원도
+  symbol ("kw")
+
+  // 충청도
+  symbol ("cc")
+  symbol ("cb")
+  symbol ("cn")
+
+  // 경상도
+  symbol ("ks")
+  symbol ("kb")
+  symbol ("kn")
+
+  // 전라도
+  symbol ("jl")
+  symbol ("jb")
+  symbol ("jn")
+
+  // 제주도
+  symbol ("jj")
+}

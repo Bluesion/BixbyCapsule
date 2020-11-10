@@ -1,0 +1,11 @@
+action (frAction) {
+  description (음식 추천)
+  collect {
+    input (style) {
+      type (frStyle)
+      min (Optional) max (One)
+    }
+  }
+  type(Calculation)
+  output (frResult)
+}

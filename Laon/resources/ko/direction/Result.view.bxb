@@ -1,0 +1,9 @@
+result-view {
+  match: drResult(this)
+
+  message {
+    template ("#{value(this)}쪽") {
+      speech ("<speak><lang xml:lang=\"ko-KR\" voice=\"F05\">#{value(this)}쪽은 어떤가요?</lang></speak>")
+    }
+  }
+}

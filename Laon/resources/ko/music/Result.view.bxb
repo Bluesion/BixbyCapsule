@@ -1,0 +1,21 @@
+result-view {
+  match: msResult(this) {
+    min (Required) max (Many)
+  }
+  
+  message {
+    template ("이 노래는 어때요?")
+  }
+  
+  render {
+    list-of (this) {
+      where-each (item) {
+        layout-macro (MusicLayout) {
+          param (result) {
+            expression (item)
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+result-view {
+  match: viv.core.Text (this)
+  
+  message {
+    template ("도움말을 불러왔어요.")
+  }
+  
+  render {
+    layout-macro (HelpLayout)
+  }
+}

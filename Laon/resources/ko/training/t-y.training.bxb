@@ -1,0 +1,20 @@
+train (t-y1784ijg1wlwl9av65digbbil) {
+  utterance ([g:drAction] 방향 추천해줘)
+  plan (Y2BikEgvyMzJKS3OzM/TAzIq9VKKglKLS3NKsMk4JpcAeQyMQMgAxUASAA==)
+  last-modified (1595257525889)
+}
+train (t-y1ynwa5rpal2e2knlhi3htkeb) {
+  utterance ("[g:trAction] (부산)[v:trCity:busan] 여행지 추천해줘")
+  plan (Y2BmkEgvyMzJKS3OzM/TAzIq9UqKglKLS3NKsMk4JpcAeQximDLOmSWVDEwMjEDMACQZGUAAygcA)
+  last-modified (1595257528890)
+}
+train (t-y9pcb5ap3hwh3dqnk7v5etxex) {
+  utterance ("[g:trAction] (서울)[v:trCity:seoul] 여행지 추천해줘")
+  plan (Y2BmkEgvyMzJKS3OzM/TAzIq9UqKglKLS3NKsMk4JpcAeQximDLOmSWVDEwMjEDMACQZGUAAygcA)
+  last-modified (1595257531980)
+}
+train (t-yap485nkb5tst5r7ny2aauc1x) {
+  utterance ("[g:dcAction] 이거 (먹을까 말까)[v:Speech:Buy]")
+  plan (Y2BmkEgvyMzJKS3OzM/TAzIq9VKSg1KLS3NKsMk4JpcAeQxi6DLBBampyRkMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1595257536809)
+}

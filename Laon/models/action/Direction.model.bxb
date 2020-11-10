@@ -1,0 +1,5 @@
+action (drAction) {
+  description (방향 뽑기)
+  type(Calculation)
+  output (drResult)
+}

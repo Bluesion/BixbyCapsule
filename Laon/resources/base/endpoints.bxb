@@ -1,0 +1,45 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (dcAction) {
+      accepted-inputs (dummy, speech)
+      local-endpoint (decision.js)
+    }
+
+    action-endpoint (drAction) {
+      local-endpoint (direction.js)
+    }
+
+    action-endpoint (frAction) {
+      accepted-inputs (style)
+      local-endpoint (food.js)
+    }
+
+    action-endpoint (ltAction) {
+      local-endpoint (lotto.js)
+    }
+
+    action-endpoint (mrAction) {
+      accepted-inputs (mrNation)
+      local-endpoint (movie.js)
+    }
+
+    action-endpoint (rrAction) {
+      accepted-inputs (min, max, count)
+      local-endpoint (number.js)
+    }
+
+    action-endpoint (msAction) {
+      accepted-inputs (genre)
+      local-endpoint (music.js)
+    }
+
+    action-endpoint (trAction) {
+      accepted-inputs (trCity)
+      local-endpoint (test.js)
+    }
+
+    action-endpoint (hpAction) {
+      local-endpoint (help.js)
+    }
+  }
+}

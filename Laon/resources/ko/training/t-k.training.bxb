@@ -1,0 +1,5 @@
+train (t-kiprjqlhzvgjwtyj7gnl43pvl) {
+  utterance ("[g:dcAction] 여기 (갈까 말까)[v:Speech:Go]")
+  plan (Y2BmkEgvyMzJKS3OzM/TAzIq9VKSg1KLS3NKsMk4JpcAeQxi6DLBBampyRkMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1595257435170)
+}

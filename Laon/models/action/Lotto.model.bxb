@@ -1,0 +1,5 @@
+action (ltAction) {
+  description (로또번호 생성)
+  type (Calculation)
+  output (ltResult)
+}

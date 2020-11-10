@@ -1,0 +1,19 @@
+layout-macro-def (FoodRecommendationResultLayout) {
+  params {
+    param (result) {
+      type (frResult)
+      min (Required) max (One)
+    }
+  }
+  
+  content {
+    cell-card {
+      slot2 {
+        content {
+          order (PrimarySecondary)
+          primary ("#{value(result)}")
+        }
+      }
+    }
+  }
+}

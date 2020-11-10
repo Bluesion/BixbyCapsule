@@ -1,0 +1,10 @@
+train (t-q8arkc0igsyjl5infwjqndclz) {
+  utterance ("[g:rrAction] (1)[v:rrMinInteger]부터 (100)[v:rrMaxInteger] 중 숫자 뽑아줘")
+  plan (Y2BhkEgvyMzJKS3OzM/TAzIq9YqKglKLS3NKsMk4JpcAeQwymDK+iRWeeSWp6alFWGUz82CyzAyMDExAkgFIgyAEwEUB)
+  last-modified (1595257494835)
+}
+train (t-qgo8h8cdw676r316gbpzh60q6) {
+  utterance ("[g:dcAction] 이거 (살까 말까)[v:Speech:Buy]")
+  plan (Y2BmkEgvyMzJKS3OzM/TAzIq9VKSg1KLS3NKsMk4JpcAeQxi6DLBBampyRkMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1595257498416)
+}

@@ -1,0 +1,9 @@
+result-view {
+  match: dcResult(this)
+  
+  message {
+    template ("#{value(this)}") {
+      speech ("<speak><lang xml:lang=\"ko-KR\" voice=\"F05\">#{value(this)}</lang></speak>")
+    }
+  }
+}

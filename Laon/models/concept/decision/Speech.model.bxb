@@ -1,0 +1,6 @@
+enum (Speech) {
+  symbol (Buy)
+  symbol (Eat)
+  symbol (Do)
+  symbol (Go)
+}

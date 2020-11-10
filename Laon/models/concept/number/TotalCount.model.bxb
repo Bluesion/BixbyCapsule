@@ -1,0 +1,3 @@
+integer (rrTotalCount) {
+  description (뽑는 개수)
+}

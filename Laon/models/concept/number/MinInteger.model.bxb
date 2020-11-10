@@ -1,0 +1,3 @@
+integer (rrMinInteger) {
+  description (최소값)
+}

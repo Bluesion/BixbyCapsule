@@ -1,0 +1,21 @@
+result-view {
+  match: ltResult(this) {
+    min (Required) max (One)
+  }
+  
+  message {
+    template ("당첨을 기원합니다!")
+  }
+  
+  render {
+    layout-macro (LottoResultLayout) {
+      param (result) {
+        expression (this)
+      }
+    }
+  }
+
+  conversation-drivers {
+    conversation-driver("다시 뽑아줘")
+  }
+}

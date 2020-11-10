@@ -1,0 +1,26 @@
+layout-macro-def (MusicLayout) {
+  params {
+    param (result) {
+      type (msResult)
+      min (Required)
+      max (One)
+    }
+  }
+  content {
+    cell-card {
+      slot1 {
+        image {
+          url ("/images/music.png")
+          shape (Square)
+        }
+      }
+      slot2 {
+        content {
+          order (PrimarySecondary)
+          primary ("#{value(result.title)}")
+          secondary ("#{value(result.singer)}")
+        }
+      }
+    }
+  }
+}

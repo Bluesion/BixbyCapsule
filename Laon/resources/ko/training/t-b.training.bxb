@@ -1,0 +1,5 @@
+train (t-bn4gvmaajh3kqt99kruvywcc0) {
+  utterance ([g:frAction] 음식 추천해줘)
+  plan (Y2BikEgvyMzJKS3OzM/TAzIq9dKKglKLS3NKsMk4JpcAeQyMQMgAxUASAA==)
+  last-modified (1595257408252)
+}

@@ -1,0 +1,15 @@
+train (t-9df5v17vv346hodd2zq4egjaw) {
+  utterance ("[g:dcAction] 이거 (할까 말까)[v:Speech:Do]")
+  plan (Y2BmkEgvyMzJKS3OzM/TAzIq9VKSg1KLS3NKsMk4JpcAeQxi6DLBBampyRkMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1595257322149)
+}
+train (t-9sxjtlff5xbg4h20zbfd243gk) {
+  utterance ([g:frAction] 오늘 뭐 먹지)
+  plan (Y2BikEgvyMzJKS3OzM/TAzIq9dKKglKLS3NKsMk4JpcAeQyMQMgAxUASAA==)
+  last-modified (1595257388355)
+}
+train (t-9wjxnwk1axokpebo3r5ll5rec) {
+  utterance ([g:ltAction] 로또 번호 추천해줘)
+  plan (Y2BikEgvyMzJKS3OzM/TAzIq9XJKglKLS3NKsMk4JpcAeQyMQMgAxUASAA==)
+  last-modified (1595257336103)
+}

@@ -1,0 +1,18 @@
+layout-macro-def (MovieRecommendationResultLayout) {
+  params {
+    param (result) {
+      type (mrResult)
+      min (Required) max (One)
+    }
+  }
+  content {
+    cell-card {
+      slot2 {
+        content {
+          order (PrimarySecondary)
+          primary ("#{value(result)}")
+        }
+      }
+    }
+  }
+}

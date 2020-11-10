@@ -1,0 +1,11 @@
+structure (msResult) {
+  description (선택된 음악)
+  property (title) {
+    type (msTitle)
+    min (Required) max (One)
+  }
+  property (singer) {
+    type (msSinger)
+    min (Required) max (One)
+  }
+}

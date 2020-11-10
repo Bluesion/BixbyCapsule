@@ -1,0 +1,10 @@
+train (t-jri2rlsplttjiw09uggr341s2) {
+  utterance ([g:ltAction] 로또 번호 뽑아줘)
+  plan (Y2BikEgvyMzJKS3OzM/TAzIq9XJKglKLS3NKsMk4JpcAeQyMQMgAxUASAA==)
+  last-modified (1595257424352)
+}
+train (t-jxzcwnsd0c3fysn9giz54xswe) {
+  utterance ("[g:rrAction] (1)[v:rrMinInteger:1]부터 (100)[v:rrMaxInteger:100]까지 숫자 뽑아줘")
+  plan (Y2BhkEgvyMzJKS3OzM/TAzIq9YqKglKLS3NKsMk4JpcAeQwymDK+iRWeeSWp6alFWGUz82CyzAyMDExAkgFIgyAEwEUB)
+  last-modified (1595257445817)
+}

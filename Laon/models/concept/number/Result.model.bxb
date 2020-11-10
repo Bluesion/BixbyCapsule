@@ -1,0 +1,19 @@
+structure (rrResult) {
+  description (결과값)
+  property (minInt) {
+    type (rrMinInteger)
+    min (Required) max (One)
+  }
+  property (maxInt) {
+    type (rrMaxInteger)
+    min (Required) max (One)
+  }
+  property (totalCount) {
+    type (rrTotalCount)
+    min (Optional) max (One)
+  }
+  property (result) {
+    type (rrSelectedInteger)
+    min (Required) max (Many)
+  }
+}

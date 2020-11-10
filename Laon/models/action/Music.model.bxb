@@ -1,0 +1,11 @@
+action (msAction) {
+  description (노래 뽑기)
+  collect {
+    input (genre) {
+      type (msGenre)
+      min (Optional) max (One)
+    }
+  }
+  type(Calculation)
+  output (msResult)
+}

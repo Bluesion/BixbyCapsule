@@ -1,0 +1,24 @@
+layout-macro-def (RandomNumberResultLayout) {
+  params {
+    param (result) {
+      type (rrResult)
+      min (Required) max (One)
+    }
+  }
+
+  content {
+    section {
+      content {
+        cell-card {
+          slot2 {
+            content {
+              order (PrimarySecondary)
+              primary ("#{value(result.result)}")
+              secondary ("#{value(result.minInt)}에서 #{value(result.maxInt)}까지의 숫자 중에서 뽑았어요.")
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+action (mrAction) {
+  description (영화 추천)
+  collect {
+    input (mrNation) {
+      type (mrNation)
+      min (Optional) max (One)
+    }
+  }
+  type(Calculation)
+  output (mrResult)
+}

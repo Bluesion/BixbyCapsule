@@ -1,0 +1,5 @@
+action (hpAction) {
+  description (도움말)
+  type(Calculation)
+  output (viv.core.Text)
+}

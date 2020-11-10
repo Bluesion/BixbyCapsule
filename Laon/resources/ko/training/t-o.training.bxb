@@ -1,0 +1,5 @@
+train (t-olvb86zz2d1ea8kzx7rn8p3k0) {
+  utterance ([g:ltAction] 로또 번호 뽑아줘)
+  plan (Y2BikEgvyMzJKS3OzM/TAzIq9XJKglKLS3NKsMk4JpcAeQyMQMgAxUASAA==)
+  last-modified (1595257476169)
+}

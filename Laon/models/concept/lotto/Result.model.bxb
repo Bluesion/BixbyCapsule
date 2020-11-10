@@ -1,0 +1,11 @@
+structure (ltResult) {
+  description (결과값)
+  property (numbers) {
+    type (ltNumbers)
+    min (Required) max (One)
+  }
+  property (bonus) {
+    type (ltBonus)
+    min (Required) max (One)
+  }
+}

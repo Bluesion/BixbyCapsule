@@ -1,0 +1,10 @@
+train (t-u5gggiqfvvw0xgh72a7kyzjdr) {
+  utterance ("[g:rrAction] (1)[v:rrMinInteger]부터 (100)[v:rrMaxInteger]까지 숫자 (10)[v:rrTotalCount]개 뽑아줘")
+  plan (Y2BlkEgvyMzJKS3OzM/TAzIq9YqKglKLS3NKsMk4JpcAeQwymDK+iRWeeSWp6alFWGUz8/DIhuSXJOY455fmlTCwMDAyMDEwA2kGIAsCYQBJDgA=)
+  last-modified (1595257603171)
+}
+train (t-ubtrakqvryjz2jt3pq7x9jrrf) {
+  utterance ([g:msAction] 노래 추천해줘)
+  plan (Y2BikEgvyMzJKS3OzM/TAzIq9XKLg1KLS3NKsMk4JpcAeQyMQMgAxUASAA==)
+  last-modified (1595347810786)
+}

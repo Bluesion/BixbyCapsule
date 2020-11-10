@@ -1,0 +1,5 @@
+train (t-nzsl3vgsuv6or3mcaztgee9tj) {
+  utterance ("[g:rrAction] (1)[v:rrMinInteger:1]부터 (100)[v:rrMaxInteger:100]까지 숫자들 중 (1)[v:rrTotalCount:1]개 뽑아줘")
+  plan (Y2BlkEgvyMzJKS3OzM/TAzIq9YqKglKLS3NKsMk4JpcAeQwymDK+iRWeeSWp6alFWGUz8/DIhuSXJOY455fmlTCwMDAyMDEwA2kGIAsCYQBJDgA=)
+  last-modified (1595257471817)
+}

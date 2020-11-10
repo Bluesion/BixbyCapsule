@@ -1,0 +1,23 @@
+capsule {
+  id (gpillusion.illy)
+  version (0.2.200700)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US) {enabled (false)}
+    target (bixby-mobile-ko-KR)
+  }
+  capsule-imports {
+    import (viv.core) {
+      as (core)
+    }
+  }
+  runtime-version(8)
+  store-sections {
+    section (Communication)
+  }
+  store-countries {
+    only {
+      allow (KR)
+    }
+  }
+}

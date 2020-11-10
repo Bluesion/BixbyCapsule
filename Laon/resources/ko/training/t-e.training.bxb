@@ -1,0 +1,5 @@
+train (t-e1lr3rd24edvsgsqikter6gow) {
+  utterance ([g:mrAction] 영화 추천해줘)
+  plan (Y2BikEgvyMzJKS3OzM/TAzIq9XKLglKLS3NKsMk4JpcAeQyMQMgAxUASAA==)
+  last-modified (1595257413544)
+}
