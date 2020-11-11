@@ -1,0 +1,27 @@
+capsule {
+  id (gpillusion.flex)
+  version (1.1.2)
+  format (3)
+  targets {
+    target (bixby-mobile-ko-KR)
+  }
+  store-sections {
+    section (HealthAndFitness)
+  }
+  runtime-flags {
+    use-input-views-for-selection-list-detail
+    modern-default-view-behavior
+    no-filtering-with-validation
+    concepts-inherit-super-type-features
+    modern-prompt-rejection
+    support-halt-effect-in-computed-inputs
+  }
+  capsule-imports {
+    import (viv.core) {
+      as (core)
+    }
+    import (viv.common) {
+      as (common) version (3.32.18)
+    }
+  }
+}
