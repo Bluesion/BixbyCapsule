@@ -1,0 +1,12 @@
+structure (frResult) {
+  description (음식 추천 결과)
+  property (name) {
+    type (frName)
+    min (Required) max (One)
+  }
+  
+  property (image) {
+    type (core.Url)
+    min (Required) max (Many)
+  }
+}

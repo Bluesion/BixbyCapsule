@@ -1,0 +1,3 @@
+text (frName) {
+  description (음식 이름)
+}

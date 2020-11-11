@@ -2,16 +2,26 @@ layout-macro-def (FoodRecommendationResultLayout) {
   params {
     param (result) {
       type (frResult)
-      min (Required) max (One)
+      min (Required)
+      max (One)
     }
   }
-  
   content {
-    cell-card {
-      slot2 {
-        content {
-          order (PrimarySecondary)
-          primary ("#{value(result)}")
+    image-card {
+      aspect-ratio (4:3)
+      image-background-color (Transparent)
+      column-size (1)
+      image-object-fit (Cover)
+      image-object-position (Center)
+      image-url ("#{value(result.image)}")
+      text-position (Overlay)
+      title-area {
+        halign (Start)
+        slot1 {
+          text {
+            style (Title_L)
+            value ("#{value(result.name)}")
+          }
         }
       }
     }

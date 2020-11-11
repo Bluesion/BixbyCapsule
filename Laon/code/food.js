@@ -1,14 +1,11 @@
-const data = require("/data/food/food-data.js");
-var console = require("console");
-var lib = require("./lib/shuffle.js");
-module.exports.function = function frOperation() {  
-  var random = lib.shuffle(data);
+const foodData = require("./data/food/food-data.js");
+const lib = require("./lib/random.js");
+module.exports.function = function frOperation() {
+  let result = [];
+
+  for (let i = 0; i < 5; i++) {
+    result.push(foodData[lib.getRandomInt(0, 109)]);
+  }
   
-  const one = random.pop();
-  const two = random.pop();
-  const three = random.pop();
-  const four = random.pop();
-  const five = random.pop();
-  
-  return [one, two, three, four, five];
+  return result;
 }

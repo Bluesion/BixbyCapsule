@@ -8,16 +8,15 @@ const music2016 = require("/data/music/music-2016.js");
 const music2017 = require("/data/music/music-2017.js");
 const music2018 = require("/data/music/music-2018.js");
 const music2019 = require("/data/music/music-2019.js");
-var lib = require("./lib/shuffle.js");
+var lib = require("./lib/random.js");
 module.exports.function = function srOperation(genre) {
   var musicAll = music2010.concat(music2011).concat(music2012).concat(music2013).concat(music2014).concat(music2015).concat(music2016).concat(music2017).concat(music2018).concat(music2019);
-  var random = lib.shuffle(musicAll);
+
+  let result = [];
+
+  for (let i = 0; i < 5; i++) {
+    result.push(musicAll[lib.getRandomInt(0, 999)]);
+  }
   
-  const one = random.pop();
-  const two = random.pop();
-  const three = random.pop();
-  const four = random.pop();
-  const five = random.pop();
-  
-  return [one, two, three, four, five];
+  return result;
 }

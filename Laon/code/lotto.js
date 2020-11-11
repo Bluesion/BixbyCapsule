@@ -12,8 +12,8 @@ module.exports.function = function ltOperation() {
   const bonus = String(random.pop());
 
   const results = {
-    numbers: mkaNumbers(one, two, three, four, five, six),
-    bonus: bonus
+    numbers : mkaNumbers(one, two, three, four, five, six),
+    bonus : bonus
   };
 
   return results;
