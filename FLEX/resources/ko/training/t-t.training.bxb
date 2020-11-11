@@ -1,0 +1,9 @@
+train (t-tn8miyzx0dhi09srv8u9qvtd4) {
+  utterance ([g:Help] 도움말 보여줘)
+  last-modified (1572008788974)
+}
+train (t-tsux8mbaifw7e6m9oild0r5y8) {
+  utterance ([g:BodyPartSelection] 다른 신체부위 보여줘)
+  plan (Y2BmkEsvyMzJKS3OzM/TS8tJrdBzyk+pDEgsKvEvLSkoLWFQxCUfnJqTmlwCFGaQQlcSXFKUWpKckZmXzsDEwAjEDECSkYEBRgMA)
+  last-modified (1572190861992)
+}

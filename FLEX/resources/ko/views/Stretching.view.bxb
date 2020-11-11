@@ -1,0 +1,61 @@
+result-view {
+  match: StretchingOutput (stretching)
+  
+  message {
+    template ("오늘도 FLEX 하세요.")
+  }
+  
+  render {
+    if (size(stretching) > 1) {
+      list-of (stretching) {
+        default-sort-order {
+          sorting (name) {
+            by (Asc)
+          }
+        }
+        where-each (item) {
+          layout-macro (StretchingList) {
+            param (output) {
+              expression (item)
+            }
+          }
+        }
+      }
+    }
+    else-if (size(stretching) == 1) {
+      layout-match (stretching) {
+        mode (Details)
+      }
+    }
+  }
+
+  conversation-drivers {
+    if (size(stretching) > 1) {
+      conversation-driver {
+        template ("다른 신체부위 보여줘")
+      }
+    } else {
+      conversation-driver {
+        template ("다른 신체부위 보여줘")
+      }
+      conversation-driver {
+        template ("목 스트레칭 보여줘")
+      }
+      conversation-driver {
+        template ("허리 스트레칭 보여줘")
+      }
+      conversation-driver {
+        template ("어깨 스트레칭 보여줘")
+      }
+      conversation-driver {
+        template ("팔 스트레칭 보여줘")
+      }
+      conversation-driver {
+        template ("다리 스트레칭 보여줘")
+      }
+      conversation-driver {
+        template ("기타 스트레칭 보여줘")
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+structure (Step) {
+  description (스트레칭 순서 Structure)
+  property (title) {
+    type (Title)
+    min (Required) max (Many)
+  }
+  property (activity) {
+    type (Activity)
+    min (Required) max (Many)
+  }
+}

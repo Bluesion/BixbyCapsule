@@ -1,0 +1,5 @@
+action (End) {
+  description (스트레칭 끝났을 때 Action)
+  type (Search)
+  output (EndText)
+}

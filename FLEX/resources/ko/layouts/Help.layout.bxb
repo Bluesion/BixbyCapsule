@@ -1,0 +1,170 @@
+layout-macro-def (HelpLayout) {
+  content {
+    section {
+      content {
+        title-area {
+          slot1 {
+            single-line {
+              text {
+                style (Title_S)
+                color (Amber)
+                value ("기본 명령어")
+              }
+            }
+          }
+          slot2 {
+            paragraph {
+              style (Detail_L)
+              value ("기본 명령어를 사용할 경우 스트레칭 부위 선택창이 나타납니다.")
+            }
+          }
+        }
+        spacer
+        partitioned {
+          content {
+            single-line {
+              text {
+                style (Title_XS)
+                value ("스트레칭 알려줘")
+              }
+            }
+            single-line {
+              text {
+                style (Title_XS)
+                value ("스트레칭 보여줘")
+              }
+            }
+            single-line {
+              text {
+                style (Title_XS)
+                value ("스트레칭 찾아줘")
+              }
+            }
+          }
+        }
+        spacer
+        divider
+        spacer
+        title-area {
+          slot1 {
+            single-line {
+              text {
+                style (Title_S)
+                color (Amber)
+                value ("신체부위")
+              }
+            }
+          }
+          slot2 {
+            paragraph {
+              style (Detail_L)
+              value ("현재 지원하는 신체부위 목록입니다.")
+            }
+          }
+        }
+        spacer
+        partitioned {
+          content {
+            single-line {
+              text {
+                style (Title_XS)
+                value ("목")
+              }
+            }
+            single-line {
+              text {
+                style (Title_XS)
+                value ("어깨")
+              }
+            }
+            single-line {
+              text {
+                style (Title_XS)
+                value ("허리")
+              }
+            }
+            single-line {
+              text {
+                style (Title_XS)
+                value ("팔")
+              }
+            }
+            single-line {
+              text {
+                style (Title_XS)
+                value ("다리")
+              }
+            }
+            single-line {
+              text {
+                style (Title_XS)
+                value ("기타")
+              }
+            }
+          }
+        }
+        spacer
+        divider
+        spacer
+        title-area {
+          slot1 {
+            single-line {
+              text {
+                style (Title_S)
+                color (Amber)
+                value ("세부 명령어")
+              }
+            }
+          }
+          slot2 {
+            paragraph {
+              style (Detail_L)
+              value ("기본 명령어와 신체부위를 함께 사용할 경우 해당 신체부위 스트레칭 목록만 보여줍니다.")
+            }
+          }
+        }
+        spacer
+        partitioned {
+          content {
+            single-line {
+              text {
+                style (Title_XS)
+                value ("목 스트레칭 알려줘")
+              }
+            }
+            single-line {
+              text {
+                style (Title_XS)
+                value ("어깨 스트레칭 보여줘")
+              }
+            }
+            single-line {
+              text {
+                style (Title_XS)
+                value ("허리 스트레칭 찾아줘")
+              }
+            }
+            single-line {
+              text {
+                style (Title_XS)
+                value ("팔 스트레칭 알려줘")
+              }
+            }
+            single-line {
+              text {
+                style (Title_XS)
+                value ("다리 스트레칭 보여줘")
+              }
+            }
+            single-line {
+              text {
+                style (Title_XS)
+                value ("기타 스트레칭 찾아줘")
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

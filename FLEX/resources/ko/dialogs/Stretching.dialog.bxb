@@ -1,0 +1,5 @@
+dialog (Progress) {
+  match: StretchingOutput
+
+  template("스트레칭 정보를 가져오는 중입니다.")
+}

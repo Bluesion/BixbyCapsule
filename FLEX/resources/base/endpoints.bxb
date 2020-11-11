@@ -1,0 +1,26 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (BodyPartSelection) {
+      accepted-inputs (stretching, speech)
+      local-endpoint (BodyPartSelection.js)
+    }
+
+    action-endpoint (IdStretchingSelection) {
+      accepted-inputs (id)
+      local-endpoint (IdStretchingSelection.js)
+    }
+
+    action-endpoint (EnumStretchingSelection) {
+      accepted-inputs (bodypart, stretching, speech)
+      local-endpoint (EnumStretchingSelection.js)
+    }
+
+    action-endpoint (End) {
+      local-endpoint (End.js)
+    }
+
+    action-endpoint (Help) {
+      local-endpoint (Help.js)
+    }
+  }
+}

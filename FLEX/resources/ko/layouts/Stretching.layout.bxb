@@ -1,0 +1,39 @@
+layout-macro-def (StretchingList) {
+  params {
+    param (output) {
+      type (StretchingOutput)
+      min (Required) max (Many)
+    }
+  }
+  content {
+    image-card {
+      aspect-ratio (4:3)
+      image-url ("[#{value(output.image[0].url)}]")
+      title-area {
+        halign (Start)
+        slot1 {
+          text {
+            value ("#{value(output.name)}")
+            style (Title_M)
+          }
+        }
+        slot2 {
+          single-line {
+            text {
+              value ("#{value(output.count)}단계 • 약 #{value(output.time)}분")
+              style (Detail_L)
+            }
+          }
+        }
+        slot3 {
+          single-line {
+            text {
+              value ("#{value(output.description)}")
+              style (Detail_M_Soft)
+            }
+          }
+        }
+      }
+    }
+  }
+}

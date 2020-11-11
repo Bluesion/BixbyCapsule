@@ -1,0 +1,34 @@
+hints {
+  uncategorized {
+    hint ("플렉스에서, 스트레칭 찾아줘") {
+      preferred-hint ("스트레칭 찾아줘")
+    }
+    hint ("플렉스에서, 스트레칭 알려줘") {
+      preferred-hint ("스트레칭 알려줘")
+    }
+    hint ("플렉스에서, 스트레칭 보여줘") {
+      preferred-hint ("스트레칭 보여줘")
+    }
+    hint ("플렉스에서, 목 스트레칭 보여줘") {
+      preferred-hint ("목 스트레칭 보여줘")
+    }
+    hint ("플렉스에서, 어깨 스트레칭 보여줘") {
+      preferred-hint ("어깨 스트레칭 보여줘")
+    }
+    hint ("플렉스에서, 허리 스트레칭 보여줘") {
+      preferred-hint ("허리 스트레칭 보여줘")
+    }
+    hint ("플렉스에서, 팔 스트레칭 보여줘") {
+      preferred-hint ("팔 스트레칭 보여줘")
+    }
+    hint ("플렉스에서, 다리 스트레칭 보여줘") {
+      preferred-hint ("다리 스트레칭 보여줘")
+    }
+    hint ("플렉스에서, 기타 스트레칭 보여줘") {
+      preferred-hint ("기타 스트레칭 보여줘")
+    }
+	  hint ("플렉스에서, 도움말 보여줘") {
+      preferred-hint ("도움말 보여줘")
+    }
+  }
+}

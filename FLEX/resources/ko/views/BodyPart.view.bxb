@@ -1,0 +1,17 @@
+result-view {
+  match: BodyPartOutput (this) {
+    min (Required)
+  }
+  
+  message {
+    template ("어느 부위 스트레칭을 원하세요?")
+  }
+  
+  render {
+    layout-macro (BodyPartLayout) {
+      param (output) {
+        expression (this)
+      }
+    }
+  }
+}

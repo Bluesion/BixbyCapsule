@@ -1,0 +1,4 @@
+structure (Image) {
+  description (스트레칭 이미지 model)
+  extends (core.BaseImage)
+}

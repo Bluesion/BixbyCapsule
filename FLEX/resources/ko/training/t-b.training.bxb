@@ -1,0 +1,5 @@
+train (t-bwhybijxrgcmk7uf4bj3w6w0w) {
+  utterance ("[g:EnumStretchingSelection] (다리)[v:BodyPart:Leg] (스트레칭)[v:Stretching:Stretching] (알려줘)[v:Speech:Find]")
+  plan (Y2BlUEgvyMzJKS3OzM/TS8tJrdALLilKLUnOyMxL9y8tKSgtYVBHV+GaV5qLUBWcmpOaXAKUZJBAV+iUn1IZkFhUwiCGYUlBampyBoMUbssZWBgYGZgYmIE0A5AFgTCAJAcA)
+  last-modified (1572026405455)
+}

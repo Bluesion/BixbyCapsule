@@ -1,0 +1,17 @@
+result-view {
+  match: HelpText (this)
+  
+  message {
+    template ("도움말을 불러왔어요.")
+  }
+  
+  render {
+    layout-macro (HelpLayout)
+  }
+
+  conversation-drivers {
+    conversation-driver {
+      template ("스트레칭 알려줘")
+    }
+  }
+}

@@ -1,0 +1,3 @@
+text (BodyPartOutput) {
+  description (BodyPartSelection의 결과)
+}

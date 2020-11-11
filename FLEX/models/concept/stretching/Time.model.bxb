@@ -1,0 +1,3 @@
+integer (Time) {
+  description (스트레칭 시간 model)
+}

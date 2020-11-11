@@ -1,0 +1,31 @@
+structure (StretchingOutput) {
+  description (StretchingSelection의 결과)
+  property (name) {
+    type (Name)
+    min (Required) max (One)
+  }
+  property (image) {
+    type (Image)
+    min (Required) max (Many)
+  }
+  property (description) {
+    type (Description)
+    min (Required) max (One)
+  }
+  property (id) {
+    type (Id)
+    min (Required) max (One)
+  }
+  property (count) {
+    type (Count)
+    min (Required) max (One)
+  }
+  property (step) {
+    type (Step)
+    min (Required) max (Many)
+  }
+  property (time) {
+    type (Time)
+    min (Required) max (One)
+  }
+}

@@ -1,0 +1,11 @@
+action (IdStretchingSelection) {
+  description (스트레칭을 고르는 Action)
+  collect {
+    input (id) {
+      type (Id)
+      min (Required) max (One)
+    }
+  }
+  type (Search)
+  output (StretchingOutput)
+}

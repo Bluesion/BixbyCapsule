@@ -1,0 +1,17 @@
+result-view {
+  match: EndText (this) {
+    min (Required)
+  }
+  
+  message {
+    template ("#{value(this[0])}")
+  }
+  
+  render {
+    layout-macro (EndLayout) {
+      param (this) {
+        expression (this)
+      }
+    }
+  }
+}

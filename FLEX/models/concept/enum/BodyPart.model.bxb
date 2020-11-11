@@ -1,0 +1,8 @@
+enum (BodyPart) {
+  symbol (Neck)
+  symbol (Shoulder)
+  symbol (Waist)
+  symbol (Arm)
+  symbol (Leg)
+  symbol (Etc)
+}

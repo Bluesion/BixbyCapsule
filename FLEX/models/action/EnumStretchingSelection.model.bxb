@@ -1,0 +1,19 @@
+action (EnumStretchingSelection) {
+  description (스트레칭을 고르는 Action)
+  collect {
+    input (bodypart) {
+      type (BodyPart)
+      min (Required) max (One)
+    }
+    input (stretching) {
+      type (Stretching)
+      min (Required) max (One)
+    }
+    input (speech) {
+      type (Speech)
+      min (Optional) max (One)
+    }
+  }
+  type (Search)
+  output (StretchingOutput)
+}

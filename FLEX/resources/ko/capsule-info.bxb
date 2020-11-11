@@ -1,0 +1,15 @@
+capsule-info {
+  display-name (FLEX(플렉스))
+  developer-name (Illusion)
+  icon-asset (/images/icon.png)
+  privacy-policy-url (https://github.com/gpillusion/FLEX_privacy_policy/blob/master/KR.md)
+  description ("FLEX로 내 몸을 FLEX 해버렸지 뭐야~? FLEX는 당신이 쉽고 간편하게 스트레칭을 할 수 있도록 도와줍니다.")
+  search-keywords {
+    keyword (플렉스)
+    keyword (플랙스)
+    keyword (스트레칭)
+    keyword (운동)
+    keyword (FLEX)
+  }
+  dispatch-name (플렉스)
+}

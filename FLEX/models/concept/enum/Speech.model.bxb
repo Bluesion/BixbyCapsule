@@ -1,0 +1,3 @@
+enum (Speech) {
+  symbol (Find)
+}

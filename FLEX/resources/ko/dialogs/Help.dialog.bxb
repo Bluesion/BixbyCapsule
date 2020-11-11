@@ -1,0 +1,4 @@
+dialog (Progress) {
+  match: HelpText
+  template("도움말을 불러오는 중입니다.")
+}

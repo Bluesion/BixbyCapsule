@@ -1,0 +1,4 @@
+dialog (Progress) {
+  match: EndText
+  template("스트레칭을 마치는 중입니다.")
+}

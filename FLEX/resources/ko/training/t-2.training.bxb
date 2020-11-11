@@ -1,0 +1,10 @@
+train (t-23y8ma4ej0qw7jrtv5pc4ye4x) {
+  utterance ("[g:EnumStretchingSelection] (허리)[v:BodyPart:Waist] (스트레칭)[v:Stretching:Stretching] (알려줘)[v:Speech:Find]")
+  plan (Y2BlUEgvyMzJKS3OzM/TS8tJrdALLilKLUnOyMxL9y8tKSgtYVBHV+GaV5qLUBWcmpOaXAKUZJBAV+iUn1IZkFhUwiCGYUlBampyBoMUbssZWBgYGZgYmIE0A5AFgTCAJAcA)
+  last-modified (1572026378451)
+}
+train (t-29uwuk5xtdw9s5dn8lvkrurzg) {
+  utterance ("[g:EnumStretchingSelection] (어깨)[v:BodyPart:Shoulder] (스트레칭)[v:Stretching:Stretching] (알려줘)[v:Speech:Find]")
+  plan (Y2BlUEgvyMzJKS3OzM/TS8tJrdALLilKLUnOyMxL9y8tKSgtYVBHV+GaV5qLUBWcmpOaXAKUZJBAV+iUn1IZkFhUwiCGYUlBampyBoMUbssZWBgYGZgYmIE0A5AFgTCAJAcA)
+  last-modified (1572026388919)
+}

@@ -1,0 +1,65 @@
+layout {
+  match: StretchingOutput (output)
+  mode (Details)
+
+  content {
+    section {
+      content {
+        image-carousel {
+          images (output.image)
+        }
+      }
+    }
+    for-each (output.step) {
+      as (step) {
+        section {
+          content {
+            title-area {
+              slot2 {
+                single-line {
+                  text {
+                    color (Amber)
+                    style (Title_XS)
+                    value ("#{value(step.title)}")
+                  }
+                }
+              }
+            }
+            paragraph {
+              value {
+                template ("#{value(step.activity)}")
+              }
+              style (Detail_L)
+            }
+            spacer
+            divider
+            spacer
+          }
+        }
+      }
+    }
+    section {
+      content {
+        cell-card {
+          slot1 {
+            image {
+              shape (Circle)
+              url ("/images/check.png")
+            }
+          }
+          slot2 {
+            content {
+              order (PrimarySecondary)
+              primary ("스트레칭 마치기")
+            }
+          }
+          on-click {
+            intent {
+              goal: End
+            }
+          }
+        }
+      }
+    }
+  }
+}

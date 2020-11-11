@@ -1,0 +1,167 @@
+layout-macro-def (EndLayout) {
+  params {
+    param (this) {
+      type (EndText)
+      min (Required) max (Many)
+    }
+  }
+  content {
+    section {
+      content {
+        spacer
+        spacer
+        title-area {
+          halign (Center)
+          slot2 {
+            single-line {
+              text {
+                style (Title_XS)
+                value ("다른 스트레칭도 도전해보세요.")
+              }
+            }
+          }
+        }
+        spacer
+        divider
+        spacer
+        title-area {
+          halign (Start)
+          slot2 {
+            single-line {
+              text {
+                style (Detail_M_Soft)
+                value ("제공 중인 스트레칭 #{value(this[1])}개")
+              }
+            }
+          }
+        }
+        cell-card {
+          slot1 {
+            image {
+              url ("/images/bodyparts/neck.png")
+              shape (Square)
+            }
+          }
+          slot2 {
+            content {
+              order (PrimarySecondary)
+              primary ("목")
+              secondary ("#{value(this[2])}개의 스트레칭이 준비되어 있어요.")
+            }
+          }
+          on-click {
+            intent {
+              goal: IdStretchingSelection
+              value: Id ("N")
+            }
+          }
+        }
+        cell-card {
+          slot1 {
+            image {
+              url ("/images/bodyparts/shoulder.png")
+              shape (Square)
+            }
+          }
+          slot2 {
+            content {
+              order (PrimarySecondary)
+              primary ("어깨")
+              secondary ("#{value(this[3])}개의 스트레칭이 준비되어 있어요.")
+            }
+          }
+          on-click {
+            intent {
+              goal: IdStretchingSelection
+              value: Id ("S")
+            }
+          }
+        }
+        cell-card {
+          slot1 {
+            image {
+              url ("/images/bodyparts/waist.png")
+              shape (Square)
+            }
+          }
+          slot2 {
+            content {
+              order (PrimarySecondary)
+              primary ("허리")
+              secondary ("#{value(this[4])}개의 스트레칭이 준비되어 있어요.")
+            }
+          }
+          on-click {
+            intent {
+              goal: IdStretchingSelection
+              value: Id ("W")
+            }
+          }
+        }
+        cell-card {
+          slot1 {
+            image {
+              url ("/images/bodyparts/arm.png")
+              shape (Square)
+            }
+          }
+          slot2 {
+            content {
+              order (PrimarySecondary)
+              primary ("팔")
+              secondary ("#{value(this[5])}개의 스트레칭이 준비되어 있어요.")
+            }
+          }
+          on-click {
+            intent {
+              goal: IdStretchingSelection
+              value: Id ("A")
+            }
+          }
+        }
+        cell-card {
+          slot1 {
+            image {
+              url ("/images/bodyparts/leg.png")
+              shape (Square)
+            }
+          }
+          slot2 {
+            content {
+              order (PrimarySecondary)
+              primary ("다리")
+              secondary ("#{value(this[6])}개의 스트레칭이 준비되어 있어요.")
+            }
+          }
+          on-click {
+            intent {
+              goal: IdStretchingSelection
+              value: Id ("L")
+            }
+          }
+        }
+        cell-card {
+          slot1 {
+            image {
+              url ("/images/bodyparts/etc.png")
+              shape (Square)
+            }
+          }
+          slot2 {
+            content {
+              order (PrimarySecondary)
+              primary ("기타")
+              secondary ("#{value(this[7])}개의 스트레칭이 준비되어 있어요.")
+            }
+          }
+          on-click {
+            intent {
+              goal: IdStretchingSelection
+              value: Id ("E")
+            }
+          }
+        }
+      }
+    }
+  }
+}

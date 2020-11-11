@@ -1,0 +1,10 @@
+train (t-0ktehklrxjv4patuvka71ou2d) {
+  utterance ([g:BodyPartSelection] find stretchings)
+  plan (Y2BmkEsvyMzJKS3OzM/TS8tJrdBzyk+pDEgsKvEvLSkoLWFQxCUfnJqTmlwCFGaQQlcSXFKUWpKckZmXzsDEwAjEDECSkYEBRgMA)
+  last-modified (1572190886639)
+}
+train (t-0ql85aocqd57yczuhpv9h0kjc) {
+  utterance ("[g:EnumStretchingSelection] (목)[v:BodyPart:Neck] (스트레칭)[v:Stretching:Stretching] (알려줘)[v:Speech:Find]")
+  plan (Y2BlUEgvyMzJKS3OzM/TS8tJrdALLilKLUnOyMxL9y8tKSgtYVBHV+GaV5qLUBWcmpOaXAKUZJBAV+iUn1IZkFhUwiCGYUlBampyBoMUbssZWBgYGZgYmIE0A5AFgTCAJAcA)
+  last-modified (1572026367832)
+}
