@@ -3,29 +3,194 @@ layout-macro-def (HelpLayout) {
     section {
       content {
         title-area {
-          slot2 {
+          slot1 {
             single-line {
-              text ("테스트")
+              text {
+                style (Title_S)
+                color (Blue)
+                value ("책임을 전가하고 싶을 때")
+              }
             }
           }
         }
-
         compound-card {
           content {
-            cell-area {
+            cell-card {
               slot2 {
                 content {
                   primary {
-                    template ("테스트")
+                    template ("이거 먹을까 말까")
                   }
                 }
               }
             }
-            cell-area {
+            cell-card {
               slot2 {
                 content {
                   primary {
-                    template ("테스트")
+                    template ("회사 갈까 말까")
+                  }
+                }
+              }
+            }
+            cell-card {
+              slot2 {
+                content {
+                  primary {
+                    template ("명품백 살까 말까")
+                  }
+                }
+              }
+            }
+            cell-card {
+              slot2 {
+                content {
+                  primary {
+                    template ("다이어트 할까 말까")
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        spacer
+
+        title-area {
+          slot1 {
+            single-line {
+              text {
+                style (Title_S)
+                color (Blue)
+                value ("인생 한방을 노릴 때")
+              }
+            }
+          }
+        }
+        compound-card {
+          content {
+            cell-card {
+              slot2 {
+                content {
+                  primary {
+                    template ("로또 번호 추천해줘")
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        spacer
+
+        title-area {
+          slot1 {
+            single-line {
+              text {
+                style (Title_S)
+                color (Blue)
+                value ("먹고 싶을 때")
+              }
+            }
+          }
+        }
+        compound-card {
+          content {
+            cell-card {
+              slot2 {
+                content {
+                  primary {
+                    template ("오늘 뭐 먹을까")
+                  }
+                }
+              }
+            }
+            cell-card {
+              slot2 {
+                content {
+                  primary {
+                    template ("오늘 점심메뉴 추천해줘")
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        spacer
+
+        title-area {
+          slot1 {
+            single-line {
+              text {
+                style (Title_S)
+                color (Blue)
+                value ("놀고 싶을 때")
+              }
+            }
+          }
+        }
+        compound-card {
+          content {
+            cell-card {
+              slot2 {
+                content {
+                  primary {
+                    template ("음악 추천해줘")
+                  }
+                }
+              }
+            }
+            cell-card {
+              slot2 {
+                content {
+                  primary {
+                    template ("영화 추천해줘")
+                  }
+                }
+              }
+            }
+            cell-card {
+              slot2 {
+                content {
+                  primary {
+                    template ("서울 여행지 추천해줘")
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        spacer
+
+        title-area {
+          slot1 {
+            single-line {
+              text {
+                style (Title_S)
+                color (Blue)
+                value ("그 외")
+              }
+            }
+          }
+        }
+        compound-card {
+          content {
+            cell-card {
+              slot2 {
+                content {
+                  primary {
+                    template ("어디로 갈까")
+                  }
+                }
+              }
+            }
+            cell-card {
+              slot2 {
+                content {
+                  primary {
+                    template ("1부터 10까지 숫자 3개 추천해줘")
                   }
                 }
               }

@@ -14,7 +14,7 @@ train (t-y9pcb5ap3hwh3dqnk7v5etxex) {
   last-modified (1595257531980)
 }
 train (t-yap485nkb5tst5r7ny2aauc1x) {
-  utterance ("[g:dcAction] 이거 (먹을까 말까)[v:Speech:Buy]")
+  utterance ("[g:dcAction] 이거 (먹을까 말까)[v:Speech:Eat]")
   plan (Y2BmkEgvyMzJKS3OzM/TAzIq9VKSg1KLS3NKsMk4JpcAeQxi6DLBBampyRkMTAyMQMwAJBkZQADKBwA=)
-  last-modified (1595257536809)
+  last-modified (1605088490132)
 }

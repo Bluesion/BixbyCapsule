@@ -11,7 +11,7 @@ capsule {
       as (core)
     }
   }
-  runtime-version(8)
+  runtime-version(9)
   store-sections {
     section (Communication)
   }

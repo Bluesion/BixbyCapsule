@@ -35,7 +35,7 @@ endpoints {
 
     action-endpoint (trAction) {
       accepted-inputs (trCity)
-      local-endpoint (test.js)
+      local-endpoint (travel.js)
     }
 
     action-endpoint (hpAction) {
